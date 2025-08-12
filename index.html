@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мой профиль</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="settings.js"></script>
+</head>
+<body>
+
+  <video id="bg-video" autoplay muted loop playsinline></video>
+
+
+  <canvas id="snow-canvas"></canvas>
+
+  <div class="profile-card">
+    <img id="avatar" class="avatar" src="" alt="Аватар" />
+    <h1 id="username"></h1>
+    <p id="description"></p>
+    <p id="address"></p>
+    <div class="social-links" id="social-links"></div>
+
+    <div class="music-player">
+      <img id="track-icon" class="track-icon" src="" alt="Трек" />
+      <div class="track-info">
+        <span id="track-title"></span>
+        <div id="progress-container">
+          <div id="progress-filled"></div>
+        </div>
+      </div>
+
+      <button id="play-btn" aria-label="Play/Pause">
+        <svg id="play-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="8,5 19,12 8,19" />
+        </svg>
+        <svg id="pause-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+          <rect x="6" y="5" width="3" height="8"/>
+          <rect x="14" y="5" width="3" height="8"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <audio id="bg-music" src=""></audio>
+</body>
+</html>
