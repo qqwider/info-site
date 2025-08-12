@@ -11,8 +11,8 @@ const config = {
   },
   socials: [
     { name: "VK", url: "https://vk.com/yourprofile", icon: "assets/vk.png" },
-    { name: "Telegram", url: "https://t.me/yourprofile", icon: "assets/telegram.png" },
-    { name: "Discord", url: "https://discordapp.com/users/yourid", icon: "assets/discord.png" }
+    { name: "Telegram", url: "https://t.me/dkid_ya", icon: "assets/telegram.png" },
+    { name: "Discord", url: "https://discord.gg/wFwNW9cj", icon: "assets/discord.png" }
   ]
 };
 document.getElementById("description").style.display = "none";
@@ -142,3 +142,4 @@ function animate() {
   requestAnimationFrame(animate);
 }
 animate();
+
